@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 30vmin;
+  width: 1000px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    color: red;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 70vh;
+  background-image: url(./car.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 1400px 700px;
+}
+.h{
+  font-size: 50px;
+  text-align: center;
+
+}
+.divide{
+  height: auto;
+  width: auto;
+  padding-left: 100px;
+
+}
+.title{
+  font-style: Serif;
+  font-size: 30px;
+}
+
+.detail{
+  font-size: 22px;
+}
+.a input[type="text"], input[type="number"]{
+  height: 40px;
+  border-radius: 25px;
+  border: 10px;
+  padding-left: 10px;
+  text-align: left;
+  background-color: #dedad9;
+}
+.a input[type="submit"]{
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  border: 10px;
+  padding-left: 10px;
+  text-align: center;
+  background-color: #2e362e;
+  color: white;
+}
+.onclicking{
+  height: 50px;
+  width: auto;
+  border-radius: 25px;
+  border: 10px;
+  padding-left: 10px;
+  text-align: left;
+  background-color: #2e362e;
+  color: white;
+
+}
+.a input[type="date"]{
+  height: 50px;
+  width: auto;
+  border-radius: 25px;
+  border: 10px;
+  padding-left: 10px;
+  text-align: left;
+  background-color: #dedad9;
+}
+.foot{
+  background-color: black;
+  color: white;
+}
+
+.carimg{
+  height: 200px;
+  width: 400px;
+}
+.footeralignment{
+  height: 60px;
+  width: 60px;
+  padding-left: 10px;
+}
+.available{
+  color: #0fdb13;
+}
+.notavailable{
+  color: red;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
